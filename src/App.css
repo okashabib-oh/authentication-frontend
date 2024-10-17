@@ -122,3 +122,29 @@ button:hover {
 .link a:hover {
     text-decoration: underline;
 }
+
+.logout{
+    border: none;
+    padding: 12px;
+    border: 2px solid seagreen;
+    background-color: #6f6;
+    color: rgb(53, 53, 53);
+}
+h2{
+    margin-top: 16px;
+    color: #c7c7c7;
+    text-decoration: underline double;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+    background-color: #868686;
+    padding: 5px;
+    border-radius: 5px;
+    color: whitesmoke;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.878), 0 4px 6px -4px rgba(255, 209, 209, 0.1);
+}

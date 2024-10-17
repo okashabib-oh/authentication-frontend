@@ -42,9 +42,11 @@ function Login() {
             const { message, success, jwtToken, name, error } = result
             if (success) {
                 handleSuccess(message)
+                localStorage.setItem('token', jwtToken)
+                localStorage.setItem('loggedInUser', name)
                 setTimeout(() => {
                     navigate('/home')
-                }, 2000)
+                }, 1000)
             } else if (error) {
                 handleError(error)
             } else if (!success) {
